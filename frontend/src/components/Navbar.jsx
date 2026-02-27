@@ -16,7 +16,7 @@ export default function Navbar() {
   const toggleMenu = () => setIsOpen(!isOpen);
 
   return (
-    <nav className="bg-gray-900 text-white shadow-md fixed w-full top-0 left-0 z-50">
+    <nav className="bg-gray-800 text-white shadow-md fixed w-full top-0 left-0 z-50">
       <div className="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
         {/* Logo */}
         <Link to="/" className="text-2xl font-bold text-green-400">
@@ -56,7 +56,7 @@ export default function Navbar() {
 
           {!isAuthenticated ? (
             <>
-              <Link to="/login" className="hover:text-green-400 transition">
+              <Link to="/login" className="  bg-green-400 px-3 py-1 rounded-xl text-black hover:bg-green-700">
                 Login
               </Link>
               

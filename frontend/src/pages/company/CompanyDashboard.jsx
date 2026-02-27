@@ -12,7 +12,7 @@ export default function CompanyDashboard() {
     createInternship,
     updateInternship,
     updateApplicationStatus,
-    deleteInternship, // ✅ added delete function
+    deleteInternship, 
   } = useCompanyStore();
 
   const [formData, setFormData] = useState({

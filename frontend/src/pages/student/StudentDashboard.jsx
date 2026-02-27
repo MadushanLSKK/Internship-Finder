@@ -147,7 +147,7 @@ export default function StudentDashboard() {
                       className={
                         app.status === "Pending"
                           ? "text-yellow-400"
-                          : app.status === "Accepted"
+                          : app.status === "accepted"
                           ? "text-green-400"
                           : "text-red-400"
                       }
